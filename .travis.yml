@@ -1,0 +1,4 @@
+language: minimal
+script:
+  - shellcheck *.sh
+  - shfmt -i 2 -ci -d *.sh
